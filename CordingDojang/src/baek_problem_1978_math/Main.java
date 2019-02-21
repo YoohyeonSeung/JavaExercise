@@ -15,18 +15,23 @@ public class Main {
 		int prime_cnt = 0;
 		
 		for(int i=0; i<num; i++) {
-			while()
-			
-			
-			
-			
-			
+			if(arr[i]==1) {
+				continue;
+			}
+			else {
+				for(int j = 2; j<= arr[i]; j++) {
+					if(arr[i]%j==0) {
+						if(j==arr[i]) {
+							
+							prime_cnt+=1;
+						}
+						break;
+					}
+				}	
+			}
 			
 		}
-		
-		
-		
-
+		System.out.println(prime_cnt);
 	}
 
 }
